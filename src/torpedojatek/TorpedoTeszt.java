@@ -1,14 +1,25 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package torpedojatek;
 
-/**
- *
- * @author hallgato
- */
 public class TorpedoTeszt {
+    
+    public static void main(String[] args) {
+    
+        System.out.println("teszt");
+        
+        new TorpedoTeszt().tesztLoves(4);
+        
+    }
+    
+    
+    public String tesztLoves(int poz){
+    
+        Hajo hajo = new Hajo();
+        String t = hajo.talalat(poz);
+        assert t.equals("talált"): "nem jó a találat ellenőrzése";
+    
+        return "";
+        
+    }
     
 }
