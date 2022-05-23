@@ -7,12 +7,12 @@ public class TorpedoTeszt {
     
         System.out.println("teszt");
         
-        new TorpedoTeszt().tesztLoves(4);
+        new TorpedoTeszt().tesztLovesTalalt(4);
         
     }
     
     
-    public String tesztLoves(int poz){
+    public String tesztLovesTalalt(int poz){
     
         Hajo hajo = new Hajo(new int[]{2, 3, 4});
         String t = hajo.talalat(poz);
